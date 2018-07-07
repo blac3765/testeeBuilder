@@ -1,0 +1,22 @@
+.position-right {
+	position: absolute;
+	right: 30px;
+}
+
+li {
+	margin: 5px 15px 5px 15px;
+}
+
+a {
+	color: white;
+}
+
+.navbar-brand {
+	color:black;
+	margin:0px 10px 0px 10px;
+	font-size: 30px;
+	background-image: url('https://www.newsmax.com/CMSPages/GetFile.aspx?guid=f393d78a-8681-42fa-87c2-e8974f8e6c4a&SiteName=Newsmax');
+	background-size: cover;
+	width: auto;
+	height: 50%;
+}
