@@ -8,4 +8,4 @@ app.listen(PORT, err => {
     console.log('Server listening on port %j', PORT);
 });
 
-app.use(express.static('./dist'));
+app.use(express.static('./dist/Unit-Tester'));
