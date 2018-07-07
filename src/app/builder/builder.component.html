@@ -41,7 +41,7 @@
 			<h4>Enter your API service to be tested</h4>
 		</div>
 		<div class="row justify-content-center">
-			<input type="string" class="col-6"(change)="change(test)" [(ngModel)]="test.api">
+			<input type="string" class="col-6" (change)="change(test)" [(ngModel)]="test.api">
 		</div>
 	</div>
 	<div class="verifyBeforeEach" *ngIf="test.component && test.features.length && !test.verified">
