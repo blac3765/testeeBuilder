@@ -49,6 +49,9 @@ export class BuilderComponent {
 		if(this.test.form && this.test.http && this.test.routing) {
 			this.numberFeatures = 3;
 		}
+		if(!this.test.form && !this.test.http && !this.test.routing) {
+			this.numberFeatures = 0
+		}
 		console.log('2update(): %o', this.test);
 	}
 
