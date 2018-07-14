@@ -7,14 +7,15 @@ import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
-  { path: 'builder', component: BuilderComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'home', 		component: HomeComponent },
+  { path: 'builder', 	component: BuilderComponent },
+  { path: 'contact',	component: ContactComponent },
+  { path: '**',			 component: HomeComponent}
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+	imports: [ RouterModule.forRoot(routes) ],
+	exports: [ RouterModule ]
 })
 export class AppRoutingModule {
 
